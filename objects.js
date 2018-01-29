@@ -1,4 +1,4 @@
-var playlist = new Object();
+var playlist = {"Goldroom" : "Fifteen"};
 
 function updatePlaylist(playlist, artist, song){
   return Object.assign({}, playlist, {[artist]:song});
